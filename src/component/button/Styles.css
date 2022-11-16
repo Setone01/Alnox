@@ -1,0 +1,69 @@
+:root {
+  --primary: transparent;
+  --secondary: #e0ebed;
+  --outline: #3a3e3d;
+}
+
+.btn {
+  font-family: "Montserrat";
+  font-weight: 500;
+  /* line-height: 2rem; */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  z-index: 100;
+  outline: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #6e6ec1;
+}
+
+/* Button colors and Styles */
+
+.btn--primary--solid {
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  border: 1.2px solid #16104b;
+  background: #16104b;
+  color: #f6f8f9;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+  outline: none;
+}
+
+/* .btn--primary--solid:hover{
+  border:1.5px solid var(--outline);
+  color: var(--outline);
+  background-color: var(--secondary);
+  } */
+
+.btn--secondary--solid {
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  padding: 6px 12px;
+  color: var(--outline);
+  outline: none;
+}
+
+.btn--outline--solid {
+  background-color: transparent;
+  border: 1.2px solid #6e6ec1;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.8rem;
+  outline: none;
+  color: #6e6ec1;
+}
+
+.btn--outline--small {
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  padding: 2px 3px;
+  font-family: "Open Sans";
+  color: var(--outline);
+  outline: none;
+}
